@@ -1,5 +1,5 @@
 create database dbricoy;
-use databases;
+use dbricoy;
 
 create table tbCategorias(
     idCategorias int,
