@@ -48,3 +48,4 @@ ALTER TABLE tbPerson DROP column DateOfBirth;
 desc tbPerson;
 SELECT * FROM tbPerson;
 desc tbFuncionarios;
+
