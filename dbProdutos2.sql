@@ -51,6 +51,7 @@ SELECT * FROM tbPRODUTOS;
 SELECT * FROM tbPRODUTOS WHERE CODIGO = 4
 
 -- 5. Exibir todos os produtos que não tenham a letra 'Y'
-SELECT * FROM  tbPRODUTOS WHERE nome not LIKE '%Y'g
+SELECT * FROM  tbPRODUTOS WHERE nome not LIKE '%Y%'
 
--- Exibir todos os produtos que se iniciem com nome 'MO' e tenham como tipo as letras 'MA'
+-- 6.Exibir todos os produtos que se iniciem com nome 'MO' e tenham como tipo as letras 'MA'
+SELECT * FROM tbPRODUTOS WHERE nome like %MO AND LIKE '%MA%'
