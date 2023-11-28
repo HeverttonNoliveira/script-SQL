@@ -22,7 +22,7 @@ show tables;
 -- visualizar a tabela
 desc tbPet;
 desc tbUsuarios;
--
+
 -- Insirido registro nas tabelas
 INSERT INTO tbPet (Codigo,Nome,Email,Telefone,cpf,dataEnt,salario)
 values(1,'Abigail Oliveira','abigail@hotmail.com','55555-5555','555.555.555-55','2005/01/10',1500.65);
