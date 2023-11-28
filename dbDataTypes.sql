@@ -20,7 +20,7 @@ create table
 show tables;
 
 -- visualizar a tabela
-desc tbPet;
+desc tbFunconarios;
 desc tbUsuarios;
 
 -- Insirido registro nas tabelas
