@@ -54,4 +54,4 @@ SELECT * FROM tbPRODUTOS WHERE CODIGO = 4
 SELECT * FROM  tbPRODUTOS WHERE nome not LIKE '%Y%'
 
 -- 6.Exibir todos os produtos que se iniciem com nome 'MO' e tenham como tipo as letras 'MA'
-SELECT * FROM tbPRODUTOS WHERE nome like %MO AND LIKE '%MA%'
+SELECT * FROM tbPRODUTOS WHERE nome like %MO AND LIKE '%MA%'''
